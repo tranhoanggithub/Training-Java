@@ -31,7 +31,7 @@ public class RandomNumber {
     // Phương thức tạo số ngẫu nhiên từ 8-18
     public static int generateRandomNumber() {
         Random random = new Random();
-        int randomNumber = random.nextInt(11) + 8; // 11 là phạm vi từ 0-10, cộng thêm 8 để có phạm vi từ 8-18
+        int randomNumber = random.nextInt(11) + 8; 
         return randomNumber;
     }
     
