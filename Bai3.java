@@ -28,14 +28,14 @@ import java.util.Scanner;
 
 public class RandomNumber {
     
-    // Phương thức tạo số ngẫu nhiên từ 8-18
+
     public static int generateRandomNumber() {
         Random random = new Random();
         int randomNumber = random.nextInt(11) + 8; 
         return randomNumber;
     }
     
-    // Phương thức nhập số từ bàn phím
+
     public static int getInputNumber() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhập số cần so sánh: ");
@@ -43,7 +43,7 @@ public class RandomNumber {
         return inputNumber;
     }
     
-    // Phương thức so sánh số nhập từ bàn phím với số ngẫu nhiên đã tạo
+
     public static void compareNumbers(int randomNumber, int inputNumber) {
         if (inputNumber == randomNumber) {
             System.out.println("Chúc mừng! Bạn đã đoán đúng số ngẫu nhiên là: " + randomNumber);
@@ -154,7 +154,7 @@ public class HocVien {
         this.diemProject = diemProject;
     }
 
-    // Phương thức nhập thông tin học viên từ bàn phím
+
     public void nhapThongTin() {
         Scanner scanner = new Scanner(System.in);
 
